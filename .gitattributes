@@ -1,0 +1,5 @@
+# 텍스트는 LF로 정규화 (CRLF churn 방지 — node는 어느 쪽이든 utf8로 읽음)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary

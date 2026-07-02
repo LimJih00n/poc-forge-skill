@@ -1,0 +1,24 @@
+# deps / build
+node_modules/
+**/node_modules/
+**/.next/
+dist/
+
+# ⚠️ secrets / env — 절대 커밋 금지
+env
+.env
+*.env
+.env.*
+
+# stage debug / 임시 산출물 (.s<번호>- 접두)
+**/.s[0-9]-*
+**/*.invalid.json
+**/qa-result.raw.json
+**/qa-result.raw.jsonl
+
+# 생성된 데모 앱(구운 결과) — 스킬 본체 아님. 실행 시 runs/<project>/ 에 생김
+runs/
+
+# OS
+.DS_Store
+Thumbs.db
